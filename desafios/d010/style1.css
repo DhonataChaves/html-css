@@ -1,0 +1,104 @@
+@charset "UTF_8";
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body {
+    background-color: #a1f1c5;
+    font: normal normal arial, sans-serif;
+    margin: 0;
+}
+
+body > main {
+   padding-top: 1px;
+   width: 80%;
+   margin: auto;
+}
+
+h1 {
+    font: normal normal 2em idroid, serif;
+    color: #206d40;
+}
+
+p {
+    font: normal normal 16px arial, sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+    color: #195532;
+}
+
+#titulo {
+    font: normal normal 2em idroid, serif;
+    text-align: center;
+    color: white;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    background-image: linear-gradient(to bottom,  #67db9b, #195532);
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+nav > a {
+    font: normal bold 16px arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.links {
+    text-decoration: none;
+    color: #2c9257;
+    font-weight: bold;
+}
+
+.subtitulos {
+    font: normal bold 20px idroid, serif;    
+    background-image: linear-gradient(to right, #ccf8e0, white );
+    color: #206d40;
+}
+
+img {
+    width: 80%;
+    padding-left: 50px;
+}
+
+div {
+    background-color: #206d40;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+div > iframe {
+    width: 80%;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+}
+
+.espaco {
+    padding: 10px;
+    margin: 0px;
+}
+

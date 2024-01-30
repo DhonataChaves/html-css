@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+h1 {
+    font: bold 2.4em arial, verdana, serif;
+}
+
+
+
+.direita {
+    text-align: right;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font: normal 1.1em arial;
+}
