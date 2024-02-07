@@ -3,4 +3,4 @@ Curso de HML5 e CSS3 do CursoEmVideo
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="dhonatachaves.github.io/html-css/exercicios/ex001/index"> Executar o exercício 001 </a>
+<a href="dhonatachaves.github.io/html-css/exercicios/ex001/index."> Executar o exercício 001 </a>
