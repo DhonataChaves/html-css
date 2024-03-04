@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100%;
+        }
+        
+        table{
+            width: 600px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .destaque {
+            background-color: green;
+        }
+
+        .cProfissao {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabelas</h1>
+    
+    <table>
+        <caption>
+            Cadastro
+        </caption>
+        <colgroup>
+            <col class="cNome">
+            <col class="cSexo">
+            <col class="cIdade">
+            <col class="cProfissao" span="2">
+        </colgroup>
+        <tr>
+            <td scope="col">Nome</td>
+            <td scope="col">Sexo</td>
+            <td scope="col">Idade</td>
+            <td scope="col">Profissão</td>
+            <td scope="col">Ano nascimento</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+            <td>0000</td>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Desenvolvedor</td>
+            <td>0000</td>
+        </tr>
+        <tr class="destaque">
+            <td>Luany</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Vendedora</td>
+            <td>0000</td>
+        </tr>
+        <tr>
+            <td>Carlito</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Escritório</td>
+            <td>0000</td>
+        </tr>
+        <tr>
+            <td>Dhonata</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Auxiliar E.</td>
+            <td>0000</td>
+        </tr>
+    </table>
+</body>
+</html>
