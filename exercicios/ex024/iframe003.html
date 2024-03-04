@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes Internos</title>
+
+    <style>
+
+        *{
+            text-decoration: none;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #tela {
+            border: 2px solid black;
+            display: block;
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando iframes com conteudos internos</h1>   
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, soluta. Delectus quibusdam consectetur repellendus, porro quisquam consequatur, obcaecati exercitationem rem quo aliquid quae deleniti assumenda, error beatae odio atque alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laborum, sint dolor sapiente itaque, ut nam voluptatum suscipit sunt id in corrupti aliquid ratione architecto saepe illum repellat harum tempora!</p>
+    
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="http://www.cursoemvideo.com" target="frame">Pagina externa</a></li>
+    </ul>
+
+    <iframe src="paginas-extras/pag001.html" id="tela" name="frame" frameborder="0" width="600" height="400"></iframe>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cupiditate exercitationem eum! Ad nesciunt perspiciatis sequi quae impedit aliquam, possimus sapiente natus voluptatibus saepe quo eum dolorem odio aspernatur atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, similique minima vero debitis quo dignissimos nisi sapiente obcaecati ipsa facere nulla dolor aliquam accusantium iure, inventore nobis atque beatae error.
+    </p>
+</body>
+</html>
